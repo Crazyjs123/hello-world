@@ -1,0 +1,18 @@
+<?php
+$name=$_GET["name"];
+if("yijiajia"==$name)
+{
+	echo "易佳佳";
+	return;
+}
+elseif(empty($name))
+{
+	echo '没有接受到参数';
+	return;
+}
+else
+{
+	echo $name;
+	return;
+}
+?>
